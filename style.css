@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Reset margin to ensure full height */
+    padding: 0; /* Reset padding to ensure full height */
+}
+
+body  {
+
+    background-image: url('https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-6.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Adjusts the background image size to cover the entire background */
+    background-repeat: no-repeat; /* Ensures the background image is not repeated */
+    background-position: center; /* Positions the background image at the center */
+    background-color: black;
+    color: black; 
+
+    font-family: "blockhead";
+    font-weight: bold;
+} 
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+    margin-top: 10%;
+    height: auto; 
+    max-width: 100px;
+
+    border-radius: 50px;
+}
+
+.profile-name{
+    text-align: center; 
+
+    padding: 30px; 
+    font-size: 28px; 
+
+}
+
+.links{ 
+    text-align: center; 
+    margin-top: 20px; 
+    border : 1px solid black; 
+    border-width: 2px; 
+    padding: 20px;
+
+    width: 290px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px; 
+
+    font-size : 18px; 
+} 
+
+a{  
+    background-color: bisque;
+    text-decoration: none;
+    color: purple;
+    transition: color 0.5s;
+}
+
+a:hover{
+    color:blue;
+    background-color: white;
+} 
